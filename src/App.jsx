@@ -18,7 +18,7 @@ function App() {
           <h1 style={{fontFamily:"sans-serif"}}>Fa inna ma'al usri yusra inna ma'al usri yusra</h1>
           <p>Surah Ash-Sharah : 94</p>
         <button className='btn'>
-         <a href='https://drive.google.com/file/d/1bjTr8OFrqVX6gTXGhaqTgXDWIZ1W5qZl/view?usp=drive_link' target='_blank'>Click Here to view the brocher  </a>
+         <a href='https://drive.google.com/file/d/1bjTr8OFrqVX6gTXGhaqTgXDWIZ1W5qZl/view?usp=sharing' target='_blank'>Click Here to view the brocher  </a>
 
         </button> 
         <button className='btn'>
