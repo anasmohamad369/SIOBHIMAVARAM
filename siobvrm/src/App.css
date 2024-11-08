@@ -1,57 +1,122 @@
-:root{
+:root {
   background-color: rgb(0, 200, 249);
-  
 }
-*{
+
+* {
   margin: 0px;
 }
-.main{
+
+.main {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
   width: 100vw;
   flex-direction: column;
+  padding: 20px;
+  box-sizing: border-box;
 }
-.name{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-        height: 100px;
-        width: 600px;
-        background-color: white;
- 
-        box-shadow: 1px 1px 0px 1px black;
+
+.name {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  width: 100%;
+  max-width: 600px;
+  background-color: white;
+  box-shadow: 1px 1px 0px 1px black;
+  margin: 10px;
+  padding: 10px;
+  box-sizing: border-box;
 }
-.main img{
+
+.main img {
   height: 100px;
   width: 100px;
   margin: 20px;
   border-radius: 50%;
 }
-.name h1{
-  font-family: Outfit;
+
+.name h1 {
+  font-family: Outfit, sans-serif;
+  text-align: center;
 }
+
 .btn {
-    height: 30px;
-    width: 300px;
-    border-radius: 20px;
-    border: none;
-    margin: 10px;
-    box-shadow: 0px ;
-    box-shadow: 1px 1px 0px 1px black;
-    cursor: pointer;
-    background-color: rgb(253, 253, 253);
-} 
-.btn a{
+  height: 30px;
+  width: 90%;
+  max-width: 300px;
+  border-radius: 20px;
+  border: none;
+  margin: 10px;
+  box-shadow: 1px 1px 0px 1px black;
+  cursor: pointer;
+  background-color: rgb(253, 253, 253);
+}
+
+.btn a {
   text-decoration: none;
-  font-family: Outfit;
+  font-family: Outfit, sans-serif;
   font-size: 20px;
   color: rgb(255, 0, 0);
 }
-.btn:hover{
+
+.btn:hover {
   background-color: rgba(0, 0, 0, 0.897);
-  transition: 0.5 ease-in;
+  transition: 0.5s ease-in;
 }
 
+
+@media (max-width: 768px) {
+  .name {
+    height: auto;
+    padding: 20px;
+  }
+  .main h1{
+    font-size: 20px;
+  }
+
+  .btn {
+    width: 100%;
+  }
+
+  .main img {
+    height: 80px;
+    width: 80px;
+  }
+
+  .name h1 {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 480px) {
+  .main {
+    flex-direction: column;
+    padding: 10px;
+  }
+
+  .name {
+    width: 100%;
+    padding: 15px;
+  }
+  .main h1{
+    text-align: center;
+    font-size: 15px;
+  }
+
+  .btn {
+    width: 100%;
+  }
+
+  .main img {
+    height: 60px;
+    width: 60px;
+  }
+
+  .name h1 {
+    font-size: 20px;
+  }
+}
