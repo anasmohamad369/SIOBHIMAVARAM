@@ -1,7 +1,7 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import './App.css'
 
+import './App.css'
+import '@react-pdf-viewer/core/lib/styles/index.css';
 function App() {
   const [count, setCount] = useState(0)
 
@@ -18,13 +18,15 @@ function App() {
           <h1 style={{fontFamily:"sans-serif"}}>Fa inna ma'al usri yusra inna ma'al usri yusra</h1>
           <p>Surah Ash-Sharah : 94</p>
         <button className='btn'>
-         <a href='./sio bvrm unit file (2).pdf' target='_blank'>Click Here to view the brocher  </a>
+         <a href='https://drive.google.com/file/d/1bjTr8OFrqVX6gTXGhaqTgXDWIZ1W5qZl/view?usp=drive_link' target='_blank'>Click Here to view the brocher  </a>
 
         </button> 
         <button className='btn'>
          <a href='https://www.instagram.com/faffiru_ilallah/ ' target='_blank'>Fafiru ilallah   </a>
 
         </button> 
+
+    
           </div>
 
     </>
