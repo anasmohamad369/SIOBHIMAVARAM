@@ -14,7 +14,7 @@ function App() {
           <h1 > Students Islamic Organisation of india</h1>
           <h1 style={{textAlign:"center"}}>Bhimavaram Unit</h1>
           </div>
-          <h3 style={{fontFamily:"revert-layer"}}> In sha Allah we are in devloping..... </h3>
+          <h3 style={{fontFamily:"revert-layer"}}> In sha Allah !we are in devloping..... </h3>
           <h1 style={{fontFamily:"sans-serif"}}>Fa inna ma'al usri yusra inna ma'al usri yusra</h1>
           <p>Surah Ash-Sharah : 94</p>
         <button className='btn'>
